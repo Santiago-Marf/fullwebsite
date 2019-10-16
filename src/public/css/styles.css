@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.txt-purple
+{
+  color: #30497B;
+}
+/* =========================  ========================= */
+.navbar
+{
+    width: 100%;
+    background: transparent;
+    /* background: #37538c; */
+    /* background: rgba(38, 50, 56, 0.3); */
+    /* border-bottom: 3px solid #37538c; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 1.5s ease;
+}
+/* =========================  ========================= */
+header .header-img
+{
+  background-image: url(/img/slider/playas.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* =========================  ========================= */
+.navbar .navbar-nav .nav-item
+{
+    padding: 0px 10px;
+    font-size: 19px;
+}
+.navbar .navbar-brand
+{
+    color: #30497B;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8);
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: #30497B;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+  /* background: #ffffff; */
+  background-image: linear-gradient(to top, #30497b, #394c80, #435085, #4c538a, #55568f);
+  color: #ffffff;
+  text-shadow: none;
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+/* .navbar .navbar-nav .nav-item .nav-link .navIcon
+{
+  font-family: 'Source Sans Pro', sans-serif;
+} */
+/* .navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: #27AE60;
+    background: #ffffff;
+    text-shadow: 2px 2px 3px #263238;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 50px;
+} */
+/* .navbar .navbar-nav .nav-item .nav-link .nav-icon
+{
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-item .nav-link .nav-icon:hover
+{
+    color: #263238;
+} */
+/* =========================  ========================= */
+
+/* =========================  ========================= */
+footer {
+    background: #263238;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #eee7ea;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+/* =========================  ========================= */
+/* =========================  ========================= */
+/* =========================  ========================= */
+/* =========================  ========================= */
+/* =========================  ========================= */
+/* =========================  ========================= */
