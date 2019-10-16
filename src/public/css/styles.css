@@ -64,31 +64,10 @@ header .header-img
   border-radius: 50px;
   padding: 5px 15px;
 }
-/* .navbar .navbar-nav .nav-item .nav-link .navIcon
-{
-  font-family: 'Source Sans Pro', sans-serif;
-} */
-/* .navbar .navbar-nav .nav-item .nav-link:hover
-{
-    color: #27AE60;
-    background: #ffffff;
-    text-shadow: 2px 2px 3px #263238;
-    letter-spacing: 1px;
-    font-weight: bold;
-    border-radius: 50px;
-} */
-/* .navbar .navbar-nav .nav-item .nav-link .nav-icon
-{
-    color: #ffffff;
-}
-.navbar .navbar-nav .nav-item .nav-link .nav-icon:hover
-{
-    color: #263238;
-} */
 /* =========================  ========================= */
 
 /* =========================  ========================= */
-footer {
+/* footer {
     background: #263238;
     overflow-x: hidden;
     padding: 14vmin 18vmin;
@@ -114,9 +93,7 @@ footer {
   footer .column i {
     color: #eee7ea;
   }
-  
-  /* It is Adjacent sibling combinator */
-  
+    
   footer .column i + i {
     padding: 0 0.5em;
   }
@@ -128,7 +105,7 @@ footer {
     background: rgba(0, 0, 0, 0.815);
     z-index: 9999;
     transition: all 1.5s ease;
-  }
+  } */
 /* =========================  ========================= */
 /* =========================  ========================= */
 /* =========================  ========================= */
